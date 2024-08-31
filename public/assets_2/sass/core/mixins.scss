@@ -1,0 +1,27 @@
+@for $i from 0 through 9 {
+	.opacity-#{$i} {
+		opacity: $i / 10 !important;
+	}
+}
+
+@for $i from 10 through 50 {
+	.font-size-#{$i} {
+		font-size: 1px * $i !important;
+	}
+}
+
+@for $i from 10 through 50 {
+    .width-#{$i * 1} {
+        width: #{$i}px !important;
+    }
+}
+
+@for $i from 10 through 50 {
+    .height-#{$i * 1} {
+        height: #{$i}px !important;
+    }
+}
+
+.h-100-vh {
+    height: 100vh;
+}

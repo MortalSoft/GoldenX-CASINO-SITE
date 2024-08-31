@@ -1,0 +1,464 @@
+.sidebar__img {
+  display: none;
+}
+
+.dice__newyear-img {
+  display: none;
+}
+
+.sidebar__logotype a {
+  background: url(../images/snow/logotype.png) no-repeat center center/contain;
+}
+
+body:not(.theme--dark) #app:before {
+  content: '';
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 16px;
+  background: url(../images/snow/snow.png) repeat-x left;
+  z-index: 10;
+}
+
+ .sidebar__img {
+  position: absolute;
+  display: block !important;
+  pointer-events: none;
+}
+
+ .sidebar__img--1 {
+  top: 15%;
+  right: -8px;
+}
+
+ .sidebar__img--2 {
+  top: 50%;
+  left: -15px;
+}
+body:is(.theme--dark) .sidebar__img--2 {
+  display: none!important;
+}
+
+ .sidebar__img--3 {
+  bottom: 15px;
+  left: -12px;
+}
+
+body:not(.theme--dark) .games__item-bg-confetti {
+  background: none;
+  mix-blend-mode: normal;
+}
+
+body:not(.theme--dark) .games__item-bg-confetti:before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: -30px;
+  width: 120px;
+  height: 150px;
+  background: url(../images/snow/games-bg.png) no-repeat center center/cover;
+  -webkit-transform: rotate(-200deg);
+          transform: rotate(-200deg);
+}
+
+body:not(.theme--dark) .games__item-bg-confetti:after {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 50px;
+  background: url(../images/snow/garland.png) no-repeat center center/contain;
+  z-index: 2;
+}
+
+body:not(.theme--dark) .games__item-bg--mines2 {
+  top: -13px;
+}
+
+body:not(.theme--dark) .games__item-bg--dice {
+  bottom: -85%;
+}
+
+body:not(.theme--dark) .games__item {
+  border-radius: 35px;
+}
+
+ .games__item-bg-ellipse, .games__item-bg-ellipse_snow {
+  background: url(../images/snow/games-bg--2.png) no-repeat center center/cover;
+}
+
+ .btn:after {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: url(../images/snow/btn-pattern.png) no-repeat center center/cover;
+}
+
+ .sidebar__game-name {
+  background: #2D2A73 url(../images/snow/btn-pattern.png) no-repeat center center/cover;
+}
+
+body:not(.theme--dark) .bx-input__input:before {
+  content: '';
+  position: absolute;
+  left: 10px;
+  top: -5px;
+  width: 170px;
+  height: 20px;
+  background: url(../images/snow/snow.png) no-repeat center/contain;
+}
+
+ .x30__rocket {
+  -webkit-transform: none;
+          transform: none;
+  padding-bottom: 20px;
+}
+
+ .x30__rocket-img {
+  -webkit-animation: none;
+          animation: none;
+}
+
+.x30__rocket-coins {
+  margin-left: -10px;
+}
+
+ .x30__bet-heading:after {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: url(../images/snow/btn-pattern-transparent.png) no-repeat center center/cover;
+  opacity: .7;
+}
+
+ .x30__timer:before {
+  content: '';
+  position: absolute;
+  left: -15px;
+  top: -10px;
+  width: 85px;
+  height: 86px;
+  background: url(../images/snow/timer.png) no-repeat center center/contain;
+}
+
+ .dice__center:before {
+  content: '';
+  position: absolute;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  width: 170px;
+  height: 20px;
+  background: url(../images/snow/snow.png) no-repeat center center/contain;
+  top: -5px;
+}
+
+ .dice__newyear-img {
+  display: block;
+  position: absolute;
+  left: 62%;
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
+  z-index: 3;
+  top: 0;
+  pointer-events: none;
+}
+
+.keno__bet-settings {
+  position: relative;
+}
+
+ 
+body:not(.theme--dark) .keno__bet-settings:before {
+  content: '';
+  position: absolute;
+  left: 10px;
+  top: -5px;
+  width: 170px;
+  height: 20px;
+  background: url(../images/snow/snow.png) no-repeat center/contain;
+}
+
+ .crash .bx-input .btn:after {
+  background-size: contain;
+  background-position: left;
+  background-repeat: repeat-x;
+}
+
+ .crash__canvas:before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: url(../images/snow/games-bg--2.png) no-repeat center center/cover;
+}
+
+.crash__canvas:after {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: -5px;
+  width: 100%;
+  height: 20px;
+  background: url(../images/snow/snow.png) repeat-x left/contain;
+}
+
+.crash__history-item-user:before {
+  content: '';
+  position: absolute;
+  left: 10px;
+  top: -5px;
+  width: 170px;
+  height: 20px;
+  background: url(../images/snow/snow.png) no-repeat center/contain;
+}
+
+.bonus__item {
+  position: relative;
+}
+
+
+body:not(.theme--dark) .bonus__item:before {
+  content: '';
+  position: absolute;
+  left: 10px;
+  top: -5px;
+  width: 170px;
+  height: 20px;
+  background: url(../images/snow/snow.png) no-repeat center/contain;
+}
+
+ .faq__item {
+  position: relative;
+}
+
+body:not(.theme--dark) .faq__item:before {
+  content: '';
+  position: absolute;
+  left: 10px;
+  top: -5px;
+  width: 170px;
+  height: 20px;
+  background: url(../images/snow/snow.png) no-repeat center/contain;
+}
+
+body:not(.theme--dark) .profile__stat-item:before, body:not(.theme--dark) .profile__user:before {
+  content: '';
+  position: absolute;
+  left: 20px;
+  top: -2px;
+  width: 170px;
+  height: 20px;
+  background: url(../images/snow/snow.png) no-repeat center/contain;
+}
+
+
+.winter {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: #EBECF2;
+  z-index: 20;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.winter::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 30px;
+  background: url(../images/snow/garland.png) repeat-x center center/contain;
+  z-index: 2;
+  background-position-x: 1px;
+}
+
+.winter:after {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 70px;
+  background: url(../images/snow/winter-giveaway.png) repeat-x center center/contain;
+  z-index: 2;
+}
+
+.winter__snow {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 16px;
+  background: url(../images/snow/snow.png) repeat-x left;
+  z-index: 2;
+}
+
+.winter__snow--left {
+  left: -50%;
+  -webkit-transform: rotate(270deg) translateY(50%);
+          transform: rotate(270deg) translateY(50%);
+}
+
+.winter__snow--right {
+  left: 50%;
+  -webkit-transform: rotate(90deg) translateY(50%);
+          transform: rotate(90deg) translateY(50%);
+}
+
+.winter__snow--bottom {
+  top: initial;
+  bottom: 0;
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
+}
+
+.winter__canvas {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 100%;
+  overflow: hidden;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.winter__canvas canvas {
+  pointer-events: none;
+}
+
+.winter__bg {
+  z-index: 3;
+  position: absolute;
+  left: -50px;
+  top: 10%;
+  pointer-events: none;
+  -webkit-transform: rotate(20deg);
+          transform: rotate(20deg);
+}
+
+.winter__bg--2 {
+  z-index: 3;
+  position: absolute;
+  right: -30px;
+  pointer-events: none;
+  bottom: 0%;
+  -webkit-transform: rotate(230deg);
+          transform: rotate(230deg);
+}
+
+.winter__wrapper {
+  max-width: 325px;
+  position: relative;
+}
+
+.winter__wrapper h3 {
+  font-size: 18px;
+  font-weight: 900;
+  margin-bottom: 30px;
+}
+
+.winter__wrapper-inner {
+  width: 100%;
+  padding: 20px;
+  border-radius: 30px;
+  background: #F3F4F8;
+  min-width: 325px;
+  -webkit-box-shadow: 0px 9px 57px rgba(0, 0, 0, 0.02);
+          box-shadow: 0px 9px 57px rgba(0, 0, 0, 0.02);
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[4];
+      grid-template-columns: repeat(4, 1fr);
+  grid-gap: 10px;
+}
+
+.winter__item {
+  position: relative;
+  border-radius: 20px;
+  background: #fff;
+  -webkit-box-shadow: 0px 6px 17px rgba(0, 0, 0, 0.05);
+          box-shadow: 0px 6px 17px rgba(0, 0, 0, 0.05);
+  height: 63px;
+  -webkit-transition: 0.2s ease;
+  transition: 0.2s ease;
+  cursor: pointer;
+  -webkit-backface-visibility: hidden;
+}
+
+.winter__item:hover {
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+}
+
+.winter__item span {
+  font-weight: bold;
+  font-size: 14px;
+  color: #7887AE;
+  pointer-events: none;
+}
+
+.winter__front {
+  -webkit-transform: rotateY(180deg);
+          transform: rotateY(180deg);
+}
+
+.winter__front, .winter__back {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  transition: -webkit-transform 0.25s ease-in;
+  -webkit-transform-style: preserve-3d;
+  border-radius: 20px;
+}
+
+.winter__item--active .winter__front {
+  -webkit-transform: rotateY(0deg);
+          transform: rotateY(0deg);
+  background: #3C4472;
+}
+
+.winter__item--active .winter__front span {
+  color: #fff;
+}
+
+.winter__item--active .winter__back {
+  -webkit-transform: rotateY(180deg);
+          transform: rotateY(180deg);
+}
+
+.winter__wrapper  h3{
+  color: #2D2A73;
+}

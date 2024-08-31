@@ -1,0 +1,302 @@
+.bg-primary {
+    background: $color-primary !important;
+    color: white !important;
+}
+
+.bg-primary-bright {
+    background: $color-primary-bright !important;
+
+    &.bg-hover {
+        transition: background .2s;
+
+        &:hover {
+            background: rgba(11, 91, 182, .3) !important;
+        }
+    }
+}
+
+.bg-primary-gradient {
+    background: linear-gradient(230deg, $color-primary, lighten($color-primary, 15%)) !important;
+    color: white !important;
+}
+
+.bg-info {
+    background: $color-info !important;
+    color: white !important;
+
+    &.bg-hover {
+        transition: background .2s;
+
+        &:hover {
+            background: lighten($color-info, 10%) !important;
+        }
+    }
+}
+
+.bg-info-bright {
+    background: $color-info-bright !important;
+
+    &.bg-hover {
+        transition: background .2s;
+
+        &:hover {
+            background: darken($color-info-bright, 5%) !important;
+        }
+    }
+}
+
+.bg-info-gradient {
+    background: linear-gradient(230deg, $color-info, lighten($color-info, 15%)) !important;
+    color: white !important;
+}
+
+.bg-secondary {
+    background: $color-secondary !important;
+    color: white !important;
+
+    &.bg-hover {
+        transition: background .2s;
+
+        &:hover {
+            background: lighten($color-secondary, 10%) !important;
+        }
+    }
+}
+
+.bg-secondary-bright {
+    background: $color-secondary-bright !important;
+
+    &.bg-hover {
+        transition: background .2s;
+
+        &:hover {
+            background: darken($color-secondary-bright, 5%) !important;
+        }
+    }
+}
+
+.bg-secondary-gradient {
+    background: linear-gradient(230deg, $color-secondary, lighten($color-secondary, 15%)) !important;
+    color: white !important;
+}
+
+.bg-success {
+    background: $color-success !important;
+    color: white !important;
+
+    &.bg-hover {
+        transition: background .2s;
+
+        &:hover {
+            background: lighten($color-success, 10%) !important;
+        }
+    }
+}
+
+.bg-success-bright {
+    background: $color-success-bright !important;
+
+    &.bg-hover {
+        transition: background .2s;
+
+        &:hover {
+            background: darken($color-success-bright, 5%) !important;
+        }
+    }
+}
+
+.bg-success-gradient {
+    background: linear-gradient(230deg, $color-success, lighten($color-success, 15%)) !important;
+    color: white !important;
+}
+
+.bg-danger {
+    background: $color-danger !important;
+    color: white !important;
+
+    &.bg-hover {
+        transition: background .2s;
+
+        &:hover {
+            background: lighten($color-danger, 10%) !important;
+        }
+    }
+}
+
+.bg-danger-bright {
+    background: $color-danger-bright !important;
+
+    &.bg-hover {
+        transition: background .2s;
+
+        &:hover {
+            background: darken($color-danger-bright, 5%) !important;
+        }
+    }
+}
+
+.bg-danger-gradient {
+    background: linear-gradient(230deg, $color-danger, lighten($color-danger, 15%)) !important;
+    color: white !important;
+}
+
+.bg-warning {
+    background: $color-warning !important;
+
+    &.bg-hover {
+        transition: background .2s;
+
+        &:hover {
+            background: lighten($color-warning, 10%) !important;
+        }
+    }
+}
+
+.bg-warning-bright {
+    background: $color-warning-bright !important;
+
+    &.bg-hover {
+        transition: background .2s;
+
+        &:hover {
+            background: darken($color-warning-bright, 5%) !important;
+        }
+    }
+}
+
+.bg-warning-gradient {
+    background: linear-gradient(230deg, $color-warning, lighten($color-warning, 15%)) !important;
+    color: white !important;
+}
+
+.bg-light {
+    background: $color-light !important;
+}
+
+.bg-dark {
+    background: $color-dark !important;
+    color: white !important;
+
+    &.bg-hover {
+        transition: background .2s;
+
+        &:hover {
+            background: lighten($color-dark, 10%) !important;
+        }
+    }
+}
+
+.bg-dark-bright {
+    background: $color-dark-bright !important;
+
+    &.bg-hover {
+        transition: background .2s;
+
+        &:hover {
+            background: darken($color-dark-bright, 5%) !important;
+        }
+    }
+}
+
+.bg-dark-gradient {
+    background: linear-gradient(230deg, $color-dark, lighten($color-dark, 15%)) !important;
+    color: white !important;
+}
+
+.bg-facebook {
+    background: $color-facebook !important;
+    color: white !important;
+}
+
+.bg-twitter {
+    background: $color-twitter !important;
+    color: white !important;
+}
+
+.bg-linkedin {
+    background: $color-linkedin !important;
+    color: white !important;
+}
+
+.bg-whatsapp {
+    background: $color-whatsapp !important;
+    color: white !important;
+}
+
+.bg-instagram {
+    background: $color-instagram !important;
+    color: white !important;
+}
+
+.bg-dribbble {
+    background: $color-dribbble !important;
+    color: white !important;
+}
+
+.bg-google {
+    background: $color-google !important;
+    color: white !important;
+}
+
+.bg-youtube {
+    background: $color-youtube !important;
+    color: white !important;
+}
+
+// texts
+
+.text-primary {
+    color: $color-primary !important;
+}
+
+.text-secondary {
+    color: $color-secondary !important;
+}
+
+.text-info {
+    color: $color-info !important;
+}
+
+.text-success {
+    color: $color-success !important;
+}
+
+.text-danger {
+    color: $color-danger !important;
+}
+
+.text-warning {
+    color: $color-warning !important;
+}
+
+.text-light {
+    color: $color-light !important;
+}
+
+.text-facebook {
+    color: $color-facebook !important;
+}
+
+.text-twitter {
+    color: $color-twitter !important;
+}
+
+.text-google {
+    color: $color-google !important;
+}
+
+.text-linkedin {
+    color: $color-linkedin !important;
+}
+
+.text-instagram {
+    color: $color-instagram !important;
+}
+
+.text-whatsapp {
+    color: $color-whatsapp !important;
+}
+
+.text-dribbble {
+    color: $color-dribbble !important;
+}

@@ -1,0 +1,69 @@
+.demo-icon-list {
+	height: 100px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 25px
+}
+
+@media (max-width: 768px) {
+	.theme-switcher {
+		display: none;
+	}
+}
+
+@media (min-width: 768px) {
+	.theme-switcher {
+		display: flex;
+		align-items: center;
+		position: fixed;
+		right: -250px;
+		top: 50%;
+		transform: translate(0, -50%);
+		user-select: none;
+		z-index: 9999;
+		transition: right .3s;
+
+		&.open {
+			right: 0;
+		}
+
+		.theme-switcher-button {
+			background-color: $color-primary;
+			color: white;
+			padding: 15px 20px;
+			border-top-left-radius: 5px;
+			border-bottom-left-radius: 5px;
+			cursor: pointer;
+
+			i {
+				font-size: 30px;
+				animation-name: spin;
+				animation-duration: 2000ms;
+				animation-iteration-count: infinite;
+				animation-timing-function: linear;
+			}
+		}
+
+		.theme-switcher-panel {
+			width: 250px;
+
+			.card {
+				margin-bottom: 0;
+				border: 1px solid $color-primary;
+				border-right: none;
+				border-top-right-radius: 0;
+				border-bottom-right-radius: 0;
+			}
+		}
+	}
+
+	@keyframes spin {
+		from {
+			transform: rotate(0deg);
+		}
+		to {
+			transform: rotate(360deg);
+		}
+	}
+}

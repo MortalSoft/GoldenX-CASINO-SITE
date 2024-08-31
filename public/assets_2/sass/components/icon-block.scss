@@ -1,0 +1,141 @@
+.icon-block {
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  background: #e1e1e1;
+  border-radius: 3px;
+  text-align: center;
+  color: black;
+  font-size: $default-font-size + 4;
+
+  &.icon-block-outline-white {
+    border: 2px solid white;
+    background: none;
+    color: white !important;
+  }
+
+  &.icon-block-outline-primary {
+    border: 2px solid $color-primary;
+    color: $color-primary !important;
+    background: none;
+  }
+
+  &.icon-block-outline-success {
+    border: 2px solid $color-success;
+    color: $color-success !important;
+    background: none;
+  }
+
+  &.icon-block-outline-danger {
+    border: 2px solid $color-danger;
+    color: $color-danger !important;
+    background: none;
+  }
+
+  &.icon-block-outline-info {
+    border: 2px solid $color-info;
+    color: $color-info !important;
+    background: none;
+  }
+
+  &.icon-block-outline-warning {
+    border: 2px solid $color-warning;
+    color: $color-warning !important;
+    background: none;
+  }
+
+  &.icon-block-outline-dark {
+    border: 2px solid $color-dark;
+    color: $color-dark !important;
+    background: none;
+  }
+
+  &.icon-block-outline-secondary {
+    border: 2px solid $color-secondary;
+    color: $color-secondary !important;
+    background: none;
+  }
+
+  &.icon-block-outline-facebook {
+    border: 2px solid $color-facebook;
+    color: $color-facebook !important;
+    background: none;
+  }
+
+  &.icon-block-outline-twitter {
+    border: 2px solid $color-twitter;
+    color: $color-twitter !important;
+    background: none;
+  }
+
+  &.icon-block-outline-linkedin {
+    border: 2px solid $color-linkedin;
+    color: $color-linkedin !important;
+    background: none;
+  }
+
+  &.icon-block-outline-whatsapp {
+    border: 2px solid $color-whatsapp;
+    color: $color-whatsapp !important;
+    background: none;
+  }
+
+  &.icon-block-outline-instagram {
+    border: 2px solid $color-instagram;
+    color: $color-instagram !important;
+    background: none;
+  }
+
+  &.icon-block-outline-dribbble {
+    border: 2px solid $color-dribbble;
+    color: $color-dribbble !important;
+    background: none;
+  }
+
+  &.icon-block-outline-google {
+    border: 2px solid $color-google;
+    color: $color-google !important;
+    background: none;
+  }
+
+  &.icon-block-outline-youtube {
+    border: 2px solid $color-youtube;
+    color: $color-youtube !important;
+    background: none;
+  }
+
+  &.icon-block-xl {
+    width: 70px;
+    height: 70px;
+    line-height: 70px;
+    font-size: $default-font-size + 14;
+  }
+
+  &.icon-block-lg {
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    font-size: $default-font-size + 8;
+  }
+
+  &.icon-block-sm {
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    font-size: $default-font-size;
+  }
+
+  &.icon-block-xs {
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+    font-size: $default-font-size - 2;
+  }
+
+  &.icon-block-floating {
+    border-radius: 50%;
+  }
+}

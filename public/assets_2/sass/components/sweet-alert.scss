@@ -1,0 +1,39 @@
+.swal-modal {
+	border-radius: .50rem;
+
+	.swal-title {
+		font-size: $default-font-size + 6;
+	}
+
+	.swal-text {
+		text-align: center;
+	}
+
+	.swal-button {
+		padding: .375rem .75rem;
+
+		&.swal-button--confirm {
+			background: $color-primary;
+		}
+
+		&.swal-button--danger {
+			background: $color-danger;
+		}
+
+		&.swal-button--cancel {
+			background: $color-light;
+		}
+	}
+
+	.swal-icon--error {
+		border-color: lighten($color-danger, 18%);
+
+		.swal-icon--error__line {
+			background: lighten($color-danger, 18%);
+		}
+	}
+
+	input.swal-content__input {
+		@extend .form-control
+	}
+}

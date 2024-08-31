@@ -1,0 +1,39 @@
+.tourStep {
+	border: none;
+
+	&.right {
+		margin-left: 10px;
+	}
+
+	&.left {
+		margin-right: 10px;
+	}
+
+	&.top {
+		margin-top: -10px;
+	}
+
+	&.bottom {
+		margin-top: 10px;
+	}
+
+	.popover-navigation {
+		border-top: 1px solid #ddd;
+		padding: .5rem .75rem;
+		display: flex;
+		align-items: center;
+
+		span {
+			font-size: $default-font-size - 2;
+			color: #9b9b9b
+		}
+
+		.popover-navigation-buttons {
+			margin-left: auto;
+
+			.btn {
+				margin-left: 5px;
+			}
+		}
+	}
+}

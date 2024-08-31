@@ -1,0 +1,38 @@
+.badge {
+   padding: 5px 10px;
+   font-size: $default-font-size - 3;
+   &.badge-success {
+      background: $color-success;
+   }
+   &.badge-danger {
+      background: $color-danger;
+   }
+   &.badge-secondary {
+      background: $color-secondary;
+   }
+   &.badge-info {
+      background: $color-info;
+   }
+   &.badge-warning {
+      background: $color-warning;
+   }
+   &.badge-dark {
+      background: $color-dark;
+   }
+   &.badge-primary {
+      background: $color-primary;
+   }
+   &.badge-light {
+      background: $color-light;
+   }
+}
+
+.btn {
+   position: relative;
+   .badge {
+      padding: 2px 6px;
+      right: 7px;
+      top: -7px;
+      position: absolute;
+   }
+}

@@ -1,0 +1,48 @@
+
+
+/* ==============
+  Calendar
+===================*/
+
+.lnb-calendars-item{
+  display: inline-block;
+  margin-right: 7px;
+}
+
+input[type=checkbox].tui-full-calendar-checkbox-round+span{
+  margin-right: 4px /*rtl: 0*/;
+  margin-left: 0 /*rtl: 4px*/;
+}
+
+.tui-full-calendar-layout, .tui-full-calendar-timegrid-timezone{
+  background-color: $card-bg !important;
+}
+
+.tui-full-calendar-dayname-container, 
+.tui-full-calendar-left, 
+.tui-full-calendar-splitter,
+.tui-full-calendar-time-date,
+.tui-full-calendar-weekday-grid-line,
+.tui-full-calendar-timegrid-timezone,
+.tui-full-calendar-timegrid-gridline{
+  border-color: $gray-300 !important;
+}
+
+.tui-full-calendar-weekday-exceed-in-week{
+  text-align: center;
+  width: 30px;
+  height: 30px;
+  line-height: 28px;
+  border-radius: 4px;
+  background-color: $card-bg;
+  color: $body-color;
+  border-color: $border-color;
+}
+
+.tui-full-calendar-timegrid-hour{
+  color: $body-color !important;
+}
+
+.tui-full-calendar-weekday-schedule-title, .tui-full-calendar-time-schedule{
+  font-weight: $font-weight-semibold;
+}

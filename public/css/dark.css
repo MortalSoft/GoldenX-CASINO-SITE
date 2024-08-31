@@ -1,0 +1,353 @@
+body, .header > .flex, .preloader{
+	background: #1E223F;
+}
+
+.header > .flex{
+	border-bottom: 2px solid #343859;
+}
+
+.panel_menu, .table_body_game{
+	background: #292D52;
+}
+
+.icon_menu svg{
+	fill: #4F5580;
+}
+
+.table_body_game{
+	color: #7981BA;
+}
+.table_body_game svg{
+	fill: #7981BA;
+}
+
+.table_body_game .img_coins{
+	fill: #6D6AF2;
+}
+
+.game{
+	box-shadow: none;
+}
+.wheel_game{
+	background: #D29216;
+}
+.wheel_game .wave{
+	fill: #B47A0B;
+}
+ 
+.x100_game{
+	background: #44AD55;
+}
+.x100_game .wave{
+	fill: #248133;
+}
+
+.jackpot_game{
+	background: #29B8CB;
+}
+.jackpot_game .wave{
+	fill: #1A9DAF;
+}
+
+.text_bal{
+	color: #7981BA;
+}
+.balance{
+	color: white;
+}
+
+.balance_block svg{
+	fill: #5E5BE5;
+} 
+
+.panel_chat{
+	background: #292D52;
+}
+
+.bottom_chat, .bottom_chat input{
+	background: #232648;
+}
+
+.mess{
+	border-color: #2d3257;
+}
+.name{
+	color: #7981BA;
+}
+
+.text_mess{
+	color: #5F669B;
+}
+
+.admin_panel_chat{
+	background: #1E223F;
+}
+
+.system_mess .name{
+	color: #fff;
+}
+
+.light{
+	display: none;
+}
+.dark{
+	display: block;
+}
+
+.ten_wheel{
+	background: linear-gradient(180deg, #1E223F 0%, rgba(30, 34, 63, 0) 100%);
+
+}
+
+.progress_wheel{
+	background: #3E436A;
+}
+
+.time_wheel{
+	color: white;
+} 
+
+.btn_bet, .question_wheel{
+	color: #7981BA;
+	border-color: #2C3154;
+}
+
+.question_wheel span{
+	color: #7981BA;
+}
+
+.bet_block_wheel{
+	background: #272B49;
+}
+
+.x_wheel{
+	color: #7981BA;
+}
+
+.user_bet{
+	background: #272B49;
+}
+
+.name_bet{
+	color: #fff;
+}
+
+.bet_bet{
+	color: #7981BA;
+}
+
+.secodary_input, .inputJackpot, .wheel__x100-block input{
+	background: #151831;
+	border-color: #151831;
+	color: #fff;
+}
+
+.table_game_ten{
+	background: linear-gradient(0deg, #F1F1F1 0%, #1E223F 0.01%, rgba(30, 34, 63, 0) 100%);
+}
+
+.btn-prof{
+	background: #151831;
+	border-color: #151831;
+}
+
+.block_dice:before{
+	background: linear-gradient(to right, #1E223F, transparent);
+}
+
+.block_dice:after{
+	background: linear-gradient(to left, #1E223F, transparent);
+}
+
+
+.block_dice_check:before{
+	background: linear-gradient(to right, #292D52, transparent);
+}
+.block_dice_check:after{
+	background: linear-gradient(to left, #292D52, transparent);
+}
+
+.wheel__x100-history:before{
+	background: linear-gradient(to left, #242949, transparent);
+}
+
+.modal_panel, .modal_system{
+	background: #292D52;
+}
+
+.modal_body{
+	background: radial-gradient(50% 50% at 50% 50%, rgba(30,34,63, 0.1) 0%, rgba(30,34,63, 0.95) 100%);
+}
+
+
+.jackpot_block_info::after, .jackpot_block_infogame, .progress_block_jackpot, .usersJackpot, .betJackpot, .arrowJackpot{
+	background: #292D52;
+}
+
+.name_jackpot, .number_jackpot, .number_infoJ{
+	color: #fff;
+}
+
+.block_jackpot_info_game{
+	border-color: #292D52;
+}
+
+.userJackpot{
+	background: #232648;
+}
+
+.blockRouletteJackpotTen_1{
+	background: linear-gradient(90deg, #1E223F 0%, rgba(241, 241, 241, 0) 100%);
+}
+
+.blockRouletteJackpotTen_2{
+	background: linear-gradient(270deg, #1E223F 0%, rgba(241, 241, 241, 0) 100%);
+}
+
+.imgJCoin, .coinsBlackJ{
+	fill: #615EE8;
+}
+
+.sumBetUser{
+	color: #7981BA;
+}
+
+.nameTicket, .nameBetUser, .userJackpotPercent, .sumBetUser{
+	color: #fff;
+}
+
+.MinesX{
+	border-color: #242949;
+background: #242949;
+}
+
+.blockMinesXTen:after{
+	background: linear-gradient(270deg, #1E223F 0%, rgba(30, 34, 63, 0) 100%);
+}
+
+.textX_3{
+	color: #fff;
+}
+
+.panel_smiles, .panel_stickers{
+	background: #272B49;
+}
+
+.win_mine_block{
+	/*opacity: .9s; */
+	background-color: rgb(39,43,73, 0.9);
+
+}
+.sumWinText{
+	color: #fff;
+}
+ 
+.block{
+	background: transparent;
+}
+
+.content-area-bonus,.wheel .content-area,.wheel__bet-item-user, .content-area,.roulette_wheel, .roulette_mines, .roulette_jackpot, .panel_more, .panel_bets{
+	background: #242949;
+}
+.wheel__title{
+	color: #4F5580;
+}
+@media (max-width: 1000px){}
+.col-chat-lg.open .panel_chat {
+   
+    background: #242949;
+}
+.col-chat-lg.open .mess{
+	background: #1E223F;
+}
+
+.col-chat-lg.open .input_chat{ 
+	border-color: #292D52;
+}
+
+}
+ 
+.sum_bonus, .title_promo, .colvo_info_ref, .ref_colvo, .title_faq, .text_pay, .itog_pay{
+	color: #fff;
+}
+.sum_bonus svg path{
+	fill: #5E5BE5;
+}
+
+.bonus_ten{
+	background: none;
+}
+
+.block_info_ref{
+	border-color: #292D52;
+}
+
+.block_info_ref svg path{
+	fill: #5E5BE5;
+}
+ 
+.methods_pay, .modal_panel_1{
+	background: #232648;
+}
+
+.method_block_pay{
+	background: #4F5580;
+	border-color: #4F5580;
+}
+
+.panel_pay, .modal_panel_2{
+	background: #292D52;
+}
+
+.menu_pay div.active, .menu_pay div:hover{
+	border-color: #4F5580;
+	color: #fff;
+}
+.block_history{
+	background: #232648;
+}
+
+.imgAvatar{
+	/*border-color: #4F5580;*/
+}
+
+.userStatus{
+	background: #292D52;
+	box-shadow: 0px 4px 0px #4F5580;
+}
+
+.statBlockUser, .themeSelectBlock{
+	background: #292D52;
+}
+
+.numberStat{
+	color: #fff;
+}
+
+tbody > tr:hover{
+	background: #292D52!important;
+}
+thead > tr{
+	color: #fff;
+}
+
+.hr{
+	background: #4F5580;
+}
+ 
+.avatar_transfer{
+	border-color: #292D52;
+}
+
+.nameUser{ 
+	color: #fff!important;
+}
+
+.fixed_mob, .block_menu_mobile{
+	background: #292D52;
+	border-color: #292D52;
+}
+
+.sum_bonus, .title_promo, .sum_bonus, .title_promo, .colvo_info_ref, .ref_colvo, .title_faq, .text_pay, .itog_pay{
+	color: #fff;
+}

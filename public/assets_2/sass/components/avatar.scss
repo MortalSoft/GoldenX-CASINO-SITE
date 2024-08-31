@@ -1,0 +1,153 @@
+.avatar {
+	display: inline-block;
+	margin-bottom: 0;
+	height: $default-avatar-size;
+	width: $default-avatar-size;
+	border-radius: 50%;
+
+	.avatar-title {
+		background: #d7d7d7;
+		width: 100%;
+		height: 100%;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		text-transform: uppercase;
+		font-size: $default-font-size + 5;
+	}
+
+	& > a {
+		width: 100%;
+		height: 100%;
+		display: block;
+		transition: color .3s;
+		color: $color-primary;
+
+		&:hover, &:focus {
+			color: $default-text-color;
+		}
+	}
+
+	& > a > img, & > img {
+		width: 100%;
+		height: 100%;
+		object-fit: cover;
+	}
+
+	&.avatar-sm {
+		height: $default-avatar-size - 1;
+		width: $default-avatar-size - 1;
+
+		.avatar-title {
+			font-size: $default-font-size
+		}
+
+		&.avatar-state-primary, &.avatar-state-success, &.avatar-state-danger, &.avatar-state-warning, &.avatar-state-info, &.avatar-state-secondary, &.avatar-state-light, &.avatar-state-dark {
+			&:before {
+				width: .8rem;
+				height: .8rem;
+			}
+		}
+	}
+
+	&.avatar-lg {
+		height: $default-avatar-size + 1.5;
+		width: $default-avatar-size + 1.5;
+
+		.avatar-title {
+			font-size: $default-font-size + 15
+		}
+
+		&.avatar-state-primary, &.avatar-state-success, &.avatar-state-danger, &.avatar-state-warning, &.avatar-state-info, &.avatar-state-secondary, &.avatar-state-light, &.avatar-state-dark {
+			&:before {
+				width: 1.3rem;
+				height: 1.3rem;
+				right: 4px;
+			}
+		}
+	}
+
+	&.avatar-xl {
+		height: $default-avatar-size + 2.8;
+		width: $default-avatar-size + 2.8;
+
+		.avatar-title {
+			font-size: $default-font-size + 25
+		}
+
+		&.avatar-state-primary, &.avatar-state-success, &.avatar-state-danger, &.avatar-state-warning, &.avatar-state-info, &.avatar-state-secondary, &.avatar-state-light, &.avatar-state-dark {
+			&:before {
+				width: 1.6rem;
+				height: 1.6rem;
+				top: 3px;
+				right: 3px;
+			}
+		}
+	}
+
+	&.avatar-state-primary, &.avatar-state-success, &.avatar-state-danger, &.avatar-state-warning, &.avatar-state-info, &.avatar-state-secondary, &.avatar-state-light, &.avatar-state-dark {
+		position: relative;
+
+		&:before {
+			content: "";
+			position: absolute;
+			display: block;
+			width: 1rem;
+			height: 1rem;
+			border-radius: 50%;
+			top: 0px;
+			right: 0px;
+			border: 3px solid white;
+		}
+	}
+
+	&.avatar-state-primary:before {
+		background: $color-primary;
+	}
+
+	&.avatar-state-success:before {
+		background: $color-success;
+	}
+
+	&.avatar-state-danger:before {
+		background: $color-danger;
+	}
+
+	&.avatar-state-warning:before {
+		background: $color-warning;
+	}
+
+	&.avatar-state-info:before {
+		background: $color-info;
+	}
+
+	&.avatar-state-secondary:before {
+		background: $color-secondary;
+	}
+
+	&.avatar-state-light:before {
+		background: $color-light;
+	}
+
+	&.avatar-state-dark:before {
+		background: $color-dark;
+	}
+}
+
+.avatar-group {
+	display: inline-flex;
+
+	.avatar {
+		margin-right: -1rem;
+        border: 2px solid white;
+
+		&:last-child {
+			margin-right: 0;
+		}
+
+		&:hover {
+			position: relative;
+			z-index: 1;
+		}
+	}
+}

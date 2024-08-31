@@ -1,0 +1,138 @@
+ul {
+	&:not(.list-unstyled) {
+		margin: 0;
+		padding: 0;
+
+		li {
+			list-style-type: none;
+
+			a {
+				.icon {
+					color: darken(white, 18%);
+					font-size: $default-font-size;
+					vertical-align: middle;
+				}
+
+				&:hover, &:focus {
+					text-decoration: underline;
+				}
+			}
+		}
+	}
+
+	li {
+		a {
+			&:hover, &:focus {
+				text-decoration: none !important;
+			}
+		}
+	}
+
+	&.list-unstyled {
+		li {
+			margin-bottom: 10px;
+
+			ul {
+				margin-left: 30px !important;
+				margin-top: 10px !important;
+				margin-bottom: 10px !important;
+
+				li {
+					list-style-type: disc !important;
+				}
+			}
+		}
+	}
+
+	&.links {
+		a {
+			display: block;
+			padding: 3px 5px;
+			color: lighten(black, 18%);
+
+			&.active {
+				color: $color-primary;
+				font-weight: 500;
+			}
+		}
+	}
+}
+
+.list-group.list-group-sm {
+	.list-group-item {
+		padding: .40rem 1rem;
+	}
+}
+
+.text-uppercase {
+	letter-spacing: .5px;
+}
+
+.bg-none {
+	background-color: inherit !important;
+}
+
+$heading-min-font-size: 13px;
+
+h1 {
+	font-size: $default-font-size + 15;
+    font-weight: 600;
+}
+
+h2 {
+	font-size: $default-font-size + 12;
+    font-weight: 600;
+}
+
+h3 {
+	font-size: $default-font-size + 9;
+    font-weight: 600;
+}
+
+h4 {
+	font-size: $default-font-size + 6;
+    font-weight: 600;
+}
+
+h5 {
+	font-size: $default-font-size + 3;
+    font-weight: 600;
+}
+
+h6 {
+	font-size: $default-font-size
+}
+
+ul.list-inline {
+	li {
+		margin-bottom: .5rem;
+	}
+}
+
+hr {
+	border-color: $border-style-color
+}
+
+.right-0 {
+	right: 0;
+}
+
+.left-0 {
+	left: 0
+}
+
+.top-0 {
+	top: 0;
+}
+
+.bottom-0 {
+	bottom: 0;
+}
+
+.cursor-pointer {
+	cursor: pointer
+}
+
+p {
+	line-height: 1.5rem;
+}

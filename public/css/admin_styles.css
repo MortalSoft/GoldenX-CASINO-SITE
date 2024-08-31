@@ -1,0 +1,159 @@
+.header > .flex{
+	width: -webkit-fill-available;
+	width: -moz-available;
+	width: fill-available;
+	padding-left: 50px;
+}
+
+.col-menu-lg{
+	width: 100px;
+}
+body, img{
+	user-select: unset;
+}
+.content{
+	width: -webkit-fill-available;
+	width: -moz-available;
+	width: fill-available;
+}
+.block_history{
+
+	background: #e3e5fa;
+}
+.img_ava{
+	width: 40px;
+	height: 40px;
+	border-radius: 100%;
+	border: 5px solid white;
+}
+.col-5_0{
+	padding-right: 20px;
+	min-width: 50%;
+}
+.text-right-panel{
+	text-align: right;
+	transform: translateY(-50%);
+	right: 50px;
+}
+.name_text_panel{
+	left: 130px;
+}
+.header{
+	width: -webkit-fill-available;
+	width: -moz-available;
+	width: fill-available;
+	padding-left: 0px;
+}
+
+.text_admin{
+	position: relative;
+	bottom: 60%;
+	left: 15px;
+}
+
+.menu_icon > .col.active svg path{
+	fill: url(#paint0_radial);
+}
+.menu_icon > .col:hover svg path{
+	fill: url(#paint0_radial);
+}
+.menu_icon > .col{
+	margin-left: 10px;
+	margin-right: 10px;
+	transition: .5s;
+	text-align: center;
+	cursor: pointer;
+}
+.menu_icon > .col.active, .menu_icon > .col:hover{
+	box-shadow: 0px 4px 0px 0px #7D7AFF;
+	color: #7D7AFF;
+}
+
+.menu_icon > .col.active span, .menu_icon > .col:hover span{
+	color: #7D7AFF;
+}
+
+.menu_icon svg.active,.menu_icon svg:hover{
+	box-shadow: 0px 0px 0px 0px #7D7AFF;
+}
+
+.content-area{
+	border-radius: 10px;
+}
+.text-admin-title{
+	font-size: 16px;
+	display: block;
+	margin-bottom: 20px;
+}
+
+.progress_danger{
+	width: 100%; 
+	height: 5px;
+	border-radius: 10px;
+	background: #ff523b;
+	position: relative;
+	margin-bottom: 30px;
+}
+
+.text-danger{
+	color: #ff523b;
+}
+
+
+.prog_success{
+	height: 5px;
+	position: absolute;
+	top: 0;
+	border-radius: 10px;
+	background: #73ff4f;
+	left: 0;
+}
+
+.bg_success{
+	background: #73ff4f!important;
+}
+.bg_danger{
+	background: #ff523b!important;
+}
+.header_color{
+	width: 100%;
+	height: 8px;
+	border-radius: 10px 10px 0px 0px;
+}
+
+.info_user img{
+	border-radius: 100%;
+	width: 150px;
+	height: 150px;
+	border: 8px solid #f1f1f1;
+}
+
+.info_user .name{
+	margin-top: 10px;
+	font-size: 16px;
+}
+
+.balance_info_user{
+	position: absolute;
+	top: -10px;
+	left: 50%;
+	transform: translateX(-50%);
+	background: #fff;
+	border: 3px solid #f1f1f1;
+	padding: 8px;
+	border-radius: 5px;
+
+}
+
+.mult_info_user{
+	position: absolute;
+	bottom: 25px;
+	left: 50%;
+	color: white;
+	transform: translateX(-50%);
+	background: #fff;
+	border: 3px solid #f1f1f1;
+	padding: 8px;
+	border-radius: 5px;
+
+}

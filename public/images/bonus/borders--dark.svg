@@ -1,0 +1,60 @@
+<svg width="863" height="52" viewBox="0 0 863 52" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0)">
+<path d="M13.5 41.3999H11V51.7499H13.5V41.3999Z" fill="#2E3255"/>
+<path d="M38.5 41.3999H36V51.7499H38.5V41.3999Z" fill="#2E3255"/>
+<path d="M63.5 41.3999H61V51.7499H63.5V41.3999Z" fill="#2E3255"/>
+<path d="M88.5 41.3999H86V51.7499H88.5V41.3999Z" fill="#2E3255"/>
+<path d="M113.5 41.3999H111V51.7499H113.5V41.3999Z" fill="#2E3255"/>
+<path d="M138.5 41.3999H136V51.7499H138.5V41.3999Z" fill="#2E3255"/>
+<path d="M163.5 41.3999H161V51.7499H163.5V41.3999Z" fill="#2E3255"/>
+<path d="M188.5 41.3999H186V51.7499H188.5V41.3999Z" fill="#2E3255"/>
+<path d="M213.5 41.3999H211V51.7499H213.5V41.3999Z" fill="#2E3255"/>
+<path d="M238.5 41.3999H236V51.7499H238.5V41.3999Z" fill="#2E3255"/>
+<path d="M263.5 41.3999H261V51.7499H263.5V41.3999Z" fill="#2E3255"/>
+<path d="M288.5 41.3999H286V51.7499H288.5V41.3999Z" fill="#2E3255"/>
+<path d="M313.5 41.3999H311V51.7499H313.5V41.3999Z" fill="#2E3255"/>
+<path d="M338.5 41.3999H336V51.7499H338.5V41.3999Z" fill="#2E3255"/>
+<path d="M363.5 41.3999H361V51.7499H363.5V41.3999Z" fill="#2E3255"/>
+<path d="M388.5 41.3999H386V51.7499H388.5V41.3999Z" fill="#2E3255"/>
+<path d="M413.5 41.3999H411V51.7499H413.5V41.3999Z" fill="#2E3255"/>
+<path d="M438.5 41.3999H436V51.7499H438.5V41.3999Z" fill="#2E3255"/>
+<path d="M463.5 41.3999H461V51.7499H463.5V41.3999Z" fill="#2E3255"/>
+<path d="M488.5 41.3999H486V51.7499H488.5V41.3999Z" fill="#2E3255"/>
+<path d="M513.5 41.3999H511V51.7499H513.5V41.3999Z" fill="#2E3255"/>
+<path d="M538.5 41.3999H536V51.7499H538.5V41.3999Z" fill="#2E3255"/>
+<path d="M563.5 41.3999H561V51.7499H563.5V41.3999Z" fill="#2E3255"/>
+<path d="M588.5 41.3999H586V51.7499H588.5V41.3999Z" fill="#2E3255"/>
+<path d="M613.5 41.3999H611V51.7499H613.5V41.3999Z" fill="#2E3255"/>
+<path d="M638.5 41.3999H636V51.7499H638.5V41.3999Z" fill="url(#paint0_linear)"/>
+<path d="M663 38H661V52H663V38Z" fill="url(#paint1_linear)"/>
+<path d="M688 31H686V52H688V31Z" fill="url(#paint2_linear)"/>
+<path d="M713 26H711V52H713V26Z" fill="url(#paint3_linear)"/>
+<path d="M738.5 41.3999H736V51.7499H738.5V41.3999Z" fill="#2E3255"/>
+<path d="M763.5 41.3999H761V51.7499H763.5V41.3999Z" fill="#2E3255"/>
+<path d="M788.5 41.3999H786V51.7499H788.5V41.3999Z" fill="#2E3255"/>
+<path d="M813.5 41.3999H811V51.7499H813.5V41.3999Z" fill="#2E3255"/>
+<path d="M838.5 41.3999H836V51.7499H838.5V41.3999Z" fill="#2E3255"/>
+<path d="M863.5 41.3999H861V51.7499H863.5V41.3999Z" fill="#2E3255"/>
+</g>
+<defs>
+<linearGradient id="paint0_linear" x1="636" y1="41.3999" x2="636" y2="51.7499" gradientUnits="userSpaceOnUse">
+<stop stop-color="#706BF6"/>
+<stop offset="1" stop-color="#3CC5F0"/>
+</linearGradient>
+<linearGradient id="paint1_linear" x1="661" y1="38" x2="661" y2="52" gradientUnits="userSpaceOnUse">
+<stop stop-color="#706BF6"/>
+<stop offset="1" stop-color="#3CC5F0"/>
+</linearGradient>
+<linearGradient id="paint2_linear" x1="686" y1="31" x2="686" y2="52" gradientUnits="userSpaceOnUse">
+<stop stop-color="#706BF6"/>
+<stop offset="1" stop-color="#3CC5F0"/>
+</linearGradient>
+<linearGradient id="paint3_linear" x1="711" y1="26" x2="711" y2="52" gradientUnits="userSpaceOnUse">
+<stop stop-color="#706BF6"/>
+<stop offset="1" stop-color="#3CC5F0"/>
+</linearGradient>
+<clipPath id="clip0">
+<rect width="863" height="52" fill="white"/>
+</clipPath>
+</defs>
+</svg>

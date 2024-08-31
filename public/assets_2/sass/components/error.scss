@@ -1,0 +1,32 @@
+body.error-page {
+	img {
+		width: 50%;
+		display: table;
+		margin: 50px auto;
+	}
+
+	.display-1 {
+		font-size: 10em
+	}
+}
+
+.error-page {
+    background-color: white;
+	text-align: center;
+	height: calc(100vh - 120px);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+	.error-page-item {
+		font-size: 14rem;
+		line-height: 14rem;
+		margin-left: -2rem;
+		text-shadow: -5px 1px 0px white;
+
+		&:nth-child(2) {
+			transform: translate(0, 10px);
+			display: inline-block;
+		}
+	}
+}

@@ -1,0 +1,80 @@
+.wizard > .content {
+    min-height: auto;
+    min-width: auto !important;
+    margin: 0;
+    margin-bottom: 15px !important;
+    background: none;
+    padding: 0 !important;
+}
+
+.wizard {
+    .wizard-index {
+        background-color: rgba(black, .4);
+        height: 30px;
+        width: 30px;
+        border-radius: 50%;
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+        color: #fff;
+        margin-right: 0.5rem;
+    }
+
+    .current, .done {
+        .wizard-index {
+            background-color: rgba(white, .2);
+        }
+    }
+}
+
+.wizard > .actions > ul > li {
+    margin: 0;
+    margin-left: 10px;
+}
+
+.wizard > .content > .body {
+    float: none;
+    position: static;
+    width: auto;
+    height: auto;
+}
+
+.wizard > .steps {
+    margin-bottom: 1.5rem;
+
+    a:hover {
+        display: flex;
+    }
+
+    & > ul > li {
+        width: auto;
+    }
+}
+
+.wizard > .steps a {
+    display: flex;
+    align-items: center;
+}
+
+.wizard > .steps a, .wizard > .steps a:hover, .wizard > .steps a:active {
+    margin: 0;
+    margin-right: 10px;
+}
+
+.wizard > .steps .current a, .wizard > .steps .current a:hover, .wizard > .steps .current a:active {
+    background: $color-primary;
+}
+
+.wizard > .steps .error a, .wizard > .steps .error a:hover, .wizard > .steps .error a:active {
+    background: $color-danger;
+}
+
+.wizard > .steps .done a, .wizard > .steps .done a:hover, .wizard > .steps .done a:active {
+    background-color: $color-success;
+    color: white !important;
+}
+
+.wizard > .actions a, .wizard > .actions a:hover, .wizard > .actions a:active {
+    background-color: $color-success;
+    color: white;
+}

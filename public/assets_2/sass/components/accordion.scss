@@ -1,0 +1,229 @@
+.accordion {
+  .card {
+    margin-bottom: 0;
+    border: 1px solid #ebebeb;
+
+    .card-header {
+      display: flex;
+      height: 50px;
+      padding: 0 10px;
+      align-items: center;
+
+      button {
+        display: block;
+      }
+    }
+  }
+
+  &.custom-accordion {
+    border: 1px solid #ebebeb;
+    border-radius: 5px;
+    overflow: hidden;
+
+    .accordion-row {
+      a.accordion-header {
+        color: $color-dark;
+        border-bottom: 1px solid #ebebeb;
+        border-top: 1px solid #ebebeb;
+        padding: 10px 20px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-top: -1px;
+
+        .accordion-status-icon {
+          &.open {
+            display: none;
+          }
+        }
+
+        &:hover, &:focus {
+          color: $color-primary;
+        }
+      }
+
+      .accordion-body {
+        display: none;
+        padding: 10px 20px;
+      }
+
+      &.open {
+        a.accordion-header {
+          background: white;
+
+          .accordion-status-icon {
+            &.open {
+              display: block;
+            }
+
+            &.close {
+              display: none;
+            }
+          }
+        }
+
+        .accordion-body {
+          display: block;
+        }
+      }
+
+      &:first-child {
+        a.accordion-header {
+          border-top: none;
+        }
+      }
+    }
+
+    &.accordion-primary {
+      .accordion-row {
+        &:not(.open) {
+          a.accordion-header {
+            &:hover, &:focus {
+              color: $color-primary;
+            }
+          }
+        }
+
+        &.open {
+          a.accordion-header {
+            background: $color-primary;
+            color: white;
+          }
+        }
+      }
+    }
+
+    &.accordion-success {
+      .accordion-row {
+        &:not(.open) {
+          a.accordion-header {
+            &:hover, &:focus {
+              color: $color-success;
+            }
+          }
+        }
+
+        &.open {
+          a.accordion-header {
+            background: $color-success;
+            color: white;
+          }
+        }
+      }
+    }
+
+    &.accordion-danger {
+      .accordion-row {
+        &:not(.open) {
+          a.accordion-header {
+            &:hover, &:focus {
+              color: $color-danger;
+            }
+          }
+        }
+
+        &.open {
+          a.accordion-header {
+            background: $color-danger;
+            color: white;
+          }
+        }
+      }
+    }
+
+    &.accordion-secondary {
+      .accordion-row {
+        &:not(.open) {
+          a.accordion-header {
+            &:hover, &:focus {
+              color: $color-secondary;
+            }
+          }
+        }
+
+        &.open {
+          a.accordion-header {
+            background: $color-secondary;
+            color: white;
+          }
+        }
+      }
+    }
+
+    &.accordion-light {
+      .accordion-row {
+        &:not(.open) {
+          a.accordion-header {
+            &:hover, &:focus {
+              color: $color-dark;
+            }
+          }
+        }
+
+        &.open {
+          a.accordion-header {
+            background: $color-light;
+            color: $color-dark;
+          }
+        }
+      }
+    }
+
+    &.accordion-warning {
+      .accordion-row {
+        &:not(.open) {
+          a.accordion-header {
+            &:hover, &:focus {
+              color: $color-warning;
+            }
+          }
+        }
+
+        &.open {
+          a.accordion-header {
+            background: $color-warning;
+            color: $color-dark;
+          }
+        }
+      }
+    }
+
+    &.accordion-info {
+      .accordion-row {
+        &:not(.open) {
+          a.accordion-header {
+            &:hover, &:focus {
+              color: $color-info;
+            }
+          }
+        }
+
+        &.open {
+          a.accordion-header {
+            background: $color-info;
+            color: white;
+          }
+        }
+      }
+    }
+
+    &.accordion-dark {
+      .accordion-row {
+        &:not(.open) {
+          a.accordion-header {
+            &:hover, &:focus {
+              color: $color-dark;
+            }
+          }
+        }
+
+        &.open {
+          a.accordion-header {
+            background: $color-dark;
+            color: white;
+          }
+        }
+      }
+    }
+  }
+}

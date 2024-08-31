@@ -1,0 +1,57 @@
+$header-height: 70px;
+$footer-height: 50px;
+$navigation-width: 280px;
+$navigation-tab-width: 80px;
+$small-navigation-width: 82px;
+$sidebar-width: 330px;
+
+$default-font-size: 14px;
+$default-border-radius: .20rem;
+
+$border-style: 1px solid #ebebeb;
+$border-style-color: darken(white, 10%);
+
+$default-text-color: #646464;
+
+// Dark mode
+$dark-border-style: 1px solid rgba(white, .1);
+$body-bg-color: #202124;
+$body-bg-color-dark: #04071a;
+$dark-mode-color-light: lighten(#202124, 10%);
+$default-dark-text-color: #d4d4d4;
+
+$default-avatar-size: 3rem;
+
+$element-focus-outline-opacity: .40;
+
+$color-primary: #5066e1;
+$color-secondary: #DD44A7;
+$color-success: #34cd86;
+$color-info: #30befb;
+$color-light: #ededed;
+$color-danger: #ff3e6c;
+$color-warning: #ffcc3e;
+$color-dark: #293134;
+
+$color-primary-bright: rgba($color-primary, .3);
+$color-secondary-bright: rgba($color-secondary, .3);
+$color-success-bright: rgba($color-success, .3);
+$color-info-bright: rgba($color-info, .3);
+$color-danger-bright: rgba($color-danger, .3);
+$color-warning-bright: rgba($color-warning, .3);
+$color-dark-bright: #d4d5d8;
+
+$color-facebook: #3b5998;
+$color-twitter: #55acee;
+$color-google: #db4437;
+$color-pinterest: #bd081c;
+$color-linkedin: #0077b5;
+$color-tumblr: #35465c;
+$color-instagram: #3f729b;
+$color-dribbble: #ea4c89;
+$color-youtube: #cd201f;
+$color-whatsapp: #43d854;
+$color-github: #00405d;
+$color-behance: #1769ff;
+$color-skype: #00aff0;
+$color-yahoo: #410093;

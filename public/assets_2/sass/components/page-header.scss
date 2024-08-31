@@ -1,0 +1,52 @@
+.page-header {
+    margin-bottom: 30px;
+    position: relative;
+    border-radius: $default-border-radius;
+
+    h1, h2, h3, h4, h5 {
+        margin: 0;
+        margin-bottom: 15px;
+        line-height: 20px;
+        font-weight: 600;
+    }
+
+    p {
+        margin-bottom: 0;
+        line-height: 15px;
+    }
+
+    .breadcrumb {
+        background: none;
+        padding: 0;
+        margin: 0;
+
+        a {
+            &:hover {
+                text-decoration: underline;
+            }
+        }
+
+        li.breadcrumb-item {
+            font-size: 12px !important;
+
+            &:first-child:before {
+                font-size: 11px;
+                font-family: themify;
+                content: "\e69b";
+                display: inline-block;
+                margin-right: 5px;
+            }
+
+            @extend .small;
+
+            & + .breadcrumb-item::before {
+                font-size: 10px;
+            }
+
+            &.active {
+                color: $color-primary;
+                font-weight: 600;
+            }
+        }
+    }
+}

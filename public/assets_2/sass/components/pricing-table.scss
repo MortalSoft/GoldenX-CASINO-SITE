@@ -1,0 +1,7 @@
+.pricing-table {
+    &.selected-pricing-table {
+        @media (min-width: 1200px) {
+            transform: scale(1.03);
+        }
+    }
+}

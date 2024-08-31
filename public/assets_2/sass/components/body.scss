@@ -1,0 +1,16 @@
+body {
+    font-family: 'Inter', sans-serif;
+    position: relative;
+    background-color: $color-primary;
+    color: black;
+    font-size: 14px;
+    overflow: hidden;
+
+    &.no-scroll {
+        overflow: hidden !important;
+    }
+}
+
+* {
+    min-width: 0;
+}

@@ -1,0 +1,31 @@
+.timeline {
+	.timeline-item {
+		padding-bottom: 20px;
+		position: relative;
+		display: flex;
+
+		& > div:last-child {
+			flex: 1;
+		}
+
+		&::before {
+			content: "";
+			display: block;
+			position: absolute;
+			width: 1px;
+			bottom: 0px;
+			top: 32px;
+			left: 15px;
+			background: #e1e1e1;
+		}
+
+		&:last-child {
+			&::before {
+				display: none;
+			}
+
+			padding-bottom: 0;
+			bottom: 0;
+		}
+	}
+}

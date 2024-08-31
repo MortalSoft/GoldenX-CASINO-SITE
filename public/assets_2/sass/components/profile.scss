@@ -1,0 +1,34 @@
+.profile-container {
+    border-radius: $default-border-radius;
+    background-color: red;
+    background-size: cover !important;
+    background-position: center !important;
+    height: 300px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding: 30px;
+    margin-bottom: 1.5rem;
+    color: rgba(white, .9);
+    box-shadow: 0 5px 10px rgba(62, 85, 120, .045);
+
+    .avatar {
+        border-width: 5px;
+        border-color: darken(white, 6%);
+        position: relative;
+        z-index: 1;
+    }
+
+    .profile-menu {
+        ul {
+            margin-bottom: 5px;
+
+            li {
+                a {
+                    color: rgba(white, .9)
+                }
+            }
+        }
+    }
+
+}

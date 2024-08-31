@@ -1,0 +1,262 @@
+.form-control, .custom-select {
+    font-size: .875rem;
+    border-color: #e1e1e1;
+    border-radius: $default-border-radius;
+
+    &:focus {
+        box-shadow: none;
+        border-color: rgba($color-primary, .8);
+    }
+}
+
+.form-control:not(.form-control-lg):not(.form-control-sm) {
+    height: calc(1.5em + .75rem + 3px)
+}
+
+.form-rounded {
+    border-radius: 50px;
+}
+
+.form-control-lg {
+    font-size: 1.10rem;
+}
+
+.form-control-sm {
+    font-size: .800rem;
+}
+
+.input-group-text {
+    border: none;
+}
+
+.valid-feedback {
+    color: $color-success;
+}
+
+.invalid-feedback {
+    color: $color-danger;
+}
+
+textarea {
+    min-height: 100px;
+    max-height: 500px
+}
+
+.custom-file-input:focus ~ .custom-file-label {
+    border-color: lighten($color-primary, 10%);
+    box-shadow: none;
+}
+
+.custom-control-input {
+    right: 0;
+}
+
+.custom-control-label {
+    line-height: 25px;
+}
+
+/* Checkboxes and Radios */
+.custom-checkbox, .custom-radio, .custom-switch {
+
+    .custom-control-input:checked ~ .custom-control-label::before {
+        border-color: $color-primary;
+        background-color: $color-primary;
+    }
+
+    .custom-control-input:focus ~ .custom-control-label::before {
+        box-shadow: 0 0 0 0.2rem rgba($color-primary, .30)
+    }
+
+    & .custom-control-input:not(:disabled):active ~ .custom-control-label::before {
+        border-color: lighten($color-primary, 18%);
+        background-color: lighten($color-primary, 18%);
+    }
+
+    &.custom-checkbox-secondary {
+        .custom-control-input:checked ~ .custom-control-label::before {
+            border-color: $color-secondary;
+            background-color: $color-secondary;
+        }
+
+        .custom-control-input:not(:disabled):active ~ .custom-control-label::before {
+            border-color: lighten($color-secondary, 18%);
+            background-color: lighten($color-secondary, 18%);
+        }
+
+        .custom-control-input:focus ~ .custom-control-label::before {
+            box-shadow: 0 0 0 0.2rem rgba($color-secondary, .30)
+        }
+    }
+
+    &.custom-checkbox-success {
+        .custom-control-input:checked ~ .custom-control-label::before {
+            border-color: $color-success;
+            background-color: $color-success;
+        }
+
+        .custom-control-input:not(:disabled):active ~ .custom-control-label::before {
+            border-color: lighten($color-success, 18%);
+            background-color: lighten($color-success, 18%);
+        }
+
+        .custom-control-input:focus ~ .custom-control-label::before {
+            box-shadow: 0 0 0 0.2rem rgba($color-success, .30)
+        }
+    }
+
+    &.custom-checkbox-danger {
+        .custom-control-input:checked ~ .custom-control-label::before {
+            border-color: $color-danger;
+            background-color: $color-danger;
+        }
+
+        .custom-control-input:not(:disabled):active ~ .custom-control-label::before {
+            border-color: lighten($color-danger, 18%);
+            background-color: lighten($color-danger, 18%);
+        }
+
+        .custom-control-input:focus ~ .custom-control-label::before {
+            box-shadow: 0 0 0 0.2rem rgba($color-danger, .30)
+        }
+    }
+
+    &.custom-checkbox-warning {
+        .custom-control-input:checked ~ .custom-control-label::before {
+            border-color: $color-warning;
+            background-color: $color-warning;
+        }
+
+        .custom-control-input:not(:disabled):active ~ .custom-control-label::before {
+            border-color: lighten($color-warning, 18%);
+            background-color: lighten($color-warning, 18%);
+        }
+
+        .custom-control-input:focus ~ .custom-control-label::before {
+            box-shadow: 0 0 0 0.2rem rgba($color-warning, .30)
+        }
+    }
+
+    &.custom-checkbox-info {
+        .custom-control-input:checked ~ .custom-control-label::before {
+            border-color: $color-info;
+            background-color: $color-info;
+        }
+
+        .custom-control-input:not(:disabled):active ~ .custom-control-label::before {
+            border-color: lighten($color-info, 18%);
+            background-color: lighten($color-info, 18%);
+        }
+
+        .custom-control-input:focus ~ .custom-control-label::before {
+            box-shadow: 0 0 0 0.2rem rgba($color-info, .30)
+        }
+    }
+
+    &.custom-checkbox-dark {
+        .custom-control-input:checked ~ .custom-control-label::before {
+            border-color: $color-dark;
+            background-color: $color-dark;
+        }
+
+        .custom-control-input:not(:disabled):active ~ .custom-control-label::before {
+            border-color: lighten($color-dark, 18%);
+            background-color: lighten($color-dark, 18%);
+        }
+
+        .custom-control-input:focus ~ .custom-control-label::before {
+            box-shadow: 0 0 0 0.2rem rgba($color-dark, .30)
+        }
+    }
+}
+
+.custom-checkbox {
+    &.custom-range-danger {
+        &::before {
+            background-color: $color-danger;
+        }
+
+        &::-webkit-slider-thumb:active {
+            background-color: lighten($color-danger, 18%);
+        }
+    }
+}
+
+.custom-range {
+    &::-webkit-slider-thumb {
+        background-color: $color-primary;
+    }
+
+    &::-webkit-slider-thumb:active {
+        background-color: lighten($color-primary, 18%);
+    }
+
+    &.custom-range-danger {
+        &::-webkit-slider-thumb {
+            background-color: $color-danger;
+        }
+
+        &::-webkit-slider-thumb:active {
+            background-color: lighten($color-danger, 18%);
+        }
+    }
+
+    &.custom-range-warning {
+        &::-webkit-slider-thumb {
+            background-color: $color-warning;
+        }
+
+        &::-webkit-slider-thumb:active {
+            background-color: lighten($color-warning, 18%);
+        }
+    }
+
+    &.custom-range-success {
+        &::-webkit-slider-thumb {
+            background-color: $color-success;
+        }
+
+        &::-webkit-slider-thumb:active {
+            background-color: lighten($color-success, 18%);
+        }
+    }
+
+    &.custom-range-secondary {
+        &::-webkit-slider-thumb {
+            background-color: $color-secondary;
+        }
+
+        &::-webkit-slider-thumb:active {
+            background-color: lighten($color-secondary, 18%);
+        }
+    }
+
+    &.custom-range-info {
+        &::-webkit-slider-thumb {
+            background-color: $color-info;
+        }
+
+        &::-webkit-slider-thumb:active {
+            background-color: lighten($color-info, 18%);
+        }
+    }
+
+    &.custom-range-light {
+        &::-webkit-slider-thumb {
+            background-color: $color-light;
+        }
+
+        &::-webkit-slider-thumb:active {
+            background-color: lighten($color-light, 18%);
+        }
+    }
+
+    &.custom-range-dark {
+        &::-webkit-slider-thumb {
+            background-color: $color-dark;
+        }
+
+        &::-webkit-slider-thumb:active {
+            background-color: lighten($color-dark, 18%);
+        }
+    }
+}

@@ -1,0 +1,133 @@
+#external-events {
+   .fc-event {
+      border: none;
+      background: none;
+      color: $default-text-color;
+      font-size: $default-font-size;
+      cursor: move;
+      i {
+         margin-right: 10px;
+      }
+   }
+}
+
+.fc {
+   .fc-center {
+      h2 {
+         font-weight: 400;
+         font-size: $default-font-size + 5;
+         color: #828282
+      }
+   }
+   .fc-event {
+      background: $color-primary;
+      color:white !important;
+      border: none;
+      border-radius: 0;
+      margin: 0 3px;
+      padding: 0px 4px;
+      font-size: 11px;
+      line-height: normal;
+      &:hover {
+         background: #0151ac;
+      }
+      &.bg-danger {
+         &:hover {
+            background: #eb3030 !important;
+         }
+      }
+      &.bg-success {
+         &:hover {
+            background: #00b43d !important;
+         }
+      }
+      &.bg-info {
+         &:hover {
+            background: #1fa1d1 !important;
+         }
+      }
+      &.bg-warning {
+         &:hover {
+            background: #eba71f !important;
+         }
+      }
+   }
+   .fc-list-table {
+      .fc-list-item {
+         &.bg-danger {
+            &:hover td {
+               background: $color-danger!important;
+            }
+            .fc-event-dot {
+               background: white!important;
+            }
+         }
+         &.bg-success {
+            &:hover td {
+               background: $color-success!important;
+            }
+            .fc-event-dot {
+               background: white!important;
+            }
+         }
+         &.bg-info {
+            &:hover td {
+               background: $color-info!important;
+            }
+            .fc-event-dot {
+               background: white!important;
+            }
+         }
+         &.bg-warning {
+            &:hover td {
+               background: $color-warning!important;
+            }
+            .fc-event-dot {
+               background: white!important;
+            }
+         }
+         &.bg-primary {
+            &:hover td {
+               background: $color-primary!important;
+            }
+            .fc-event-dot {
+               background: white!important;
+            }
+         }
+         &.bg-secondary {
+            &:hover td {
+               background: $color-secondary!important;
+            }
+            .fc-event-dot {
+               background: white!important;
+            }
+         }
+         &.bg-dark {
+            &:hover td {
+               background: $color-dark!important;
+            }
+            .fc-event-dot {
+               background: white!important;
+            }
+         }
+      }
+   }
+   .fc-state-default {
+      @extend .btn-light;
+      background-image: none;
+      border: none;
+      box-shadow: none;
+      text-shadow: none;
+      &.fc-state-active {
+         background: $color-primary;
+         color: white;
+      }
+   }
+   .fc-event-dot {
+      background: #cdcdcd !important;
+   }
+}
+
+.fc-toolbar .fc-state-active, .fc-toolbar .ui-state-active {
+   z-index: 2;
+}

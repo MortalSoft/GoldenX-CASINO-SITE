@@ -1,0 +1,24 @@
+.breadcrumb {
+    background: none;
+    padding: 0;
+    margin-bottom: 30px;
+
+    .breadcrumb-item {
+        & + .breadcrumb-item::before {
+            font-family: 'themify';
+            content: "\e649";
+            font-size: 10px;
+            margin-right: 0;
+        }
+
+        &:before {
+            font-family: 'themify';
+            content: "\e69b";
+            margin-right: .5rem
+        }
+
+        &.active {
+            color: $color-primary
+        }
+    }
+}

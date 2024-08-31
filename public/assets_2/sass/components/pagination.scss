@@ -1,0 +1,41 @@
+.pagination {
+   .page-item {
+      &.active {
+         .page-link {
+            background: $color-primary;
+            border-color: transparent;
+         }
+      }
+      .page-link {
+         &:hover, &:focus {
+            text-decoration: none;
+         }
+      }
+   }
+   &.pagination-rounded {
+      .page-item {
+         margin: 0 5px;
+         .page-link {
+            border-radius: 50%;
+            padding: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 40px;
+            width: 40px;
+         }
+      }
+      &.pagination-sm {
+         .page-link {
+            height: 30px;
+            width: 30px;
+         }
+      }
+      &.pagination-lg {
+         .page-link {
+            height: 60px;
+            width: 60px;
+         }
+      }
+   }
+}

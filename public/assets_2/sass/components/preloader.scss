@@ -1,0 +1,54 @@
+.preloader {
+    position: fixed;
+    right: 0;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    z-index: 1001;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    span {
+        text-transform: uppercase;
+        font-size: 12px;
+        letter-spacing: 2px;
+        margin-top: 15px;
+    }
+
+    .preloader-icon {
+        border: 2px solid #eeeeee;
+        border-radius: 50%;
+        border-top: 2px solid $color-primary;
+        width: 70px;
+        height: 70px;
+        animation: spin .5s linear infinite;
+    }
+
+    /* Safari */
+    @-webkit-keyframes spin {
+        0% {
+            -webkit-transform: rotate(0deg);
+        }
+        100% {
+            -webkit-transform: rotate(360deg);
+        }
+    }
+
+    @keyframes spin {
+        0% {
+            transform: rotate(0deg);
+        }
+        100% {
+            transform: rotate(360deg);
+        }
+    }
+
+    svg {
+        path {
+            fill: $color-primary;
+        }
+    }
+}

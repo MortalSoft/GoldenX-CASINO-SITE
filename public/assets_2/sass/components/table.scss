@@ -1,0 +1,123 @@
+table.dataTable thead .sorting:before,
+table.dataTable thead .sorting:after,
+table.dataTable thead .sorting_asc:before,
+table.dataTable thead .sorting_asc:after,
+table.dataTable thead .sorting_desc:before,
+table.dataTable thead .sorting_desc:after {
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.table {
+    min-width: 100%;
+
+    thead {
+        th {
+            border-top: none;
+            border-bottom-width: 1px;
+            font-weight: 600;
+            text-transform: uppercase;
+            font-size: 11px;
+            letter-spacing: 1px;
+            @extend .text-muted;
+        }
+
+        &.thead-dark {
+            th {
+                color: rgba(white, .8) !important;
+            }
+        }
+    }
+
+    tbody {
+        tr {
+            &.table-primary {
+                th, td {
+                    background-color: $color-primary;
+                    color: white;
+                }
+            }
+            &.table-secondary {
+                th, td {
+                    background-color: $color-secondary;
+                    color: white;
+                }
+            }
+            &.table-success {
+                th, td {
+                    background-color: $color-success;
+                    color: white;
+                }
+            }
+            &.table-danger {
+                th, td {
+                    background-color: $color-danger;
+                    color: white;
+                }
+            }
+            &.table-warning {
+                th, td {
+                    background-color: $color-warning;
+                }
+            }
+            &.table-info {
+                th, td {
+                    background-color: $color-info;
+                    color: white;
+                }
+            }
+            &.table-dark {
+                th, td {
+                    background-color: $color-dark;
+                    color: white;
+                }
+            }
+        }
+    }
+
+    td {
+        vertical-align: middle;
+        white-space: nowrap;
+    }
+
+    .dropdown-menu {
+        margin-top: 0;
+    }
+
+    &.table-lg {
+        td {
+            padding: 1.3rem .75rem;
+        }
+    }
+
+    th {
+        vertical-align: middle !important;
+    }
+
+    tr {
+        &.tr-selected {
+            background-color: darken(white, 4%);
+        }
+    }
+
+    &.table-striped tbody tr:nth-of-type(odd) {
+        background-color: rgba(0, 0, 0, .03);
+    }
+}
+
+.table-responsive-stack tr {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+}
+
+.table-responsive-stack td,
+.table-responsive-stack th {
+    display: block;
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+}

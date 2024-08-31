@@ -1,0 +1,81 @@
+.list-group {
+	.list-group-item {
+		&.list-group-item-primary {
+			background: $color-primary !important;
+			color: white !important;
+		}
+
+		&.list-group-item-primary-bright {
+			background: $color-primary-bright !important;
+			color: $color-primary !important;
+		}
+
+		&.list-group-item-secondary {
+			background: $color-secondary !important;
+			color: white !important;
+		}
+
+		&.list-group-item-secondary-bright {
+			background: $color-secondary-bright !important;
+			color: $color-secondary !important;
+		}
+
+		&.list-group-item-success {
+			background: $color-success !important;
+			color: white !important;
+		}
+
+		&.list-group-item-success-bright {
+			background: $color-success-bright !important;
+			color: $color-success !important;
+		}
+
+		&.list-group-item-danger {
+			background: $color-danger !important;
+			color: white !important;
+		}
+
+		&.list-group-item-danger-bright {
+			background: $color-danger-bright !important;
+			color: $color-danger !important;
+		}
+
+		&.list-group-item-warning {
+			background: $color-warning !important;
+			color: white !important;
+		}
+
+		&.list-group-item-warning-bright {
+			background: $color-warning-bright !important;
+			color: $color-warning !important;
+		}
+
+		&.list-group-item-info {
+			background: $color-info !important;
+			color: white !important;
+		}
+
+		&.list-group-item-info-bright {
+			background: $color-info-bright !important;
+			color: $color-info !important;
+		}
+
+		&.list-group-item-light {
+			background: $color-light !important;
+		}
+
+		&.list-group-item-dark {
+			background: $color-dark !important;
+			color: white !important;
+		}
+
+		&.list-group-item-dark-bright {
+			background: $color-dark-bright !important;
+			color: $color-dark !important;
+		}
+	}
+}
+
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+	background-color: $color-primary;
+}

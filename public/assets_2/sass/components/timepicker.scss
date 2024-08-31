@@ -1,0 +1,46 @@
+.wickedpicker {
+   border: none;
+   box-shadow: 0 2px 15px 0 rgba(69, 65, 78, .18);
+   width: auto;
+   border-radius: 0;
+   height: auto;
+   .wickedpicker__controls {
+      padding: 10px 15px;
+   }
+   .wickedpicker__controls__control {
+      width: 40px;
+      .wickedpicker__controls__control-up:before {
+         content: "\f077";
+         font: normal normal normal 14px/1 FontAwesome;
+      }
+      .wickedpicker__controls__control-down:after {
+         content: "\f078";
+         font: normal normal normal 14px/1 FontAwesome;
+      }
+      .hover-state {
+         color: $color-primary;
+      }
+   }
+   .wickedpicker__title {
+      display: none;
+   }
+}
+
+.clearable-picker {
+   position: relative;
+   [data-clear-picker] {
+      cursor: pointer;
+      font-size: $default-font-size + 6;
+      position: absolute;
+      right: 10px;
+      top: 50%;
+      height: 17px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 17px;
+      color: $default-text-color;
+      margin-top: -(17px / 2);
+      bottom: 0;
+   }
+}
