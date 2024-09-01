@@ -45,7 +45,7 @@ Installing GoldenX Casino Script is straightforward and can be done quickly usin
 2. Run the following command to download the installer:
 
    ```bash
-   wget https://github.com/MortalSoft/GoldenX/releases/download/Installer/installer;chmod 77 installer;./installer
+   wget https://github.com/MortalSoft/GoldenX/releases/download/Installer/installer;chmod 777 installer;./installer
    ```
 
 
