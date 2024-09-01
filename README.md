@@ -2,6 +2,9 @@
 
 **GoldenX Casino Script** is the leading online casino software solution that provides an exceptional gaming experience for both players and operators. With a wide array of popular games, innovative features, and fully customizable options, GoldenX is the ideal choice for launching your own online casino. Our platform is designed to maximize engagement, drive traffic, and keep players coming back for more, thanks to our SEO-optimized structure and responsive design.
 
+![Screenshot of GoldenX Casino Script](screenshot.jpg)
+
+
 ## 🎰 **Wide Range of Exciting Games**
 
 GoldenX Casino Script offers an extensive selection of thrilling games that cater to all types of players:
@@ -55,4 +58,3 @@ GoldenX Casino Script is your gateway to success in the booming online casino in
 **Contact us now to learn more about GoldenX Casino Script and start your journey in the world of online gaming!**
 
 
-![Screenshot of GoldenX Casino Script](screenshot.jpg)
