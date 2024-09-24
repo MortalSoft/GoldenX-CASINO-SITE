@@ -47,19 +47,6 @@ class Controller extends BaseController
         // $vk = new VkApi($VK_KEY, $VERSION);
     }
 
-    public function testVk(){
-        $vk = new VKApiClient();
-        $access_token = '';
-        
-        $response = $vk->wall()->post($access_token, array(
-            'owner_id' => -,
-            'message' => '',
-            'attachments' => 'photo670021108_457241685'
-        ));
-
-        print_r($response);
-    }
-
     public function changeBalance(Request $r){
 
         if(\Auth::guest()){return response(['success' => false, 'mess' => 'Авторизуйтесь' ]);}
